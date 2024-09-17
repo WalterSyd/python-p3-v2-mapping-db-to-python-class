@@ -1,7 +1,7 @@
 from __init__ import CONN, CURSOR
 from department import Department
 
-import ipdb
+# import ipdb
 
 
 def reset_database():
@@ -12,5 +12,6 @@ def reset_database():
     Department.create("Human Resources", "Building C, East Wing")
     Department.create("Accounting", "Building B, 1st Floor")
 
+
 reset_database()
-ipdb.set_trace()
+# ipdb.set_trace()
